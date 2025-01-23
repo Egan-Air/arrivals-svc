@@ -29,7 +29,7 @@ WORKDIR /root/
 COPY --from=builder /app/arrivals-service .
 
 # Expose the port your Go service will listen on
-EXPOSE 8080
+EXPOSE 8082
 
 # Run the Go binary
 CMD ["./arrivals-service"]
